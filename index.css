@@ -1,0 +1,80 @@
+body, html{
+    height: 100%;
+    font-size: 16px;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+    color:black;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4{
+    position:relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image: url('uvce_vector.jpg');
+    min-height: 80vw;
+}
+
+.pimg2{
+    background-image: url('UVCE_Gallery17.jpg');
+    min-height: 20vw;
+}
+
+.pimg3{
+    background-image: url('UVCE_Home1\ \(1\).jpg');
+    min-height: 20vw;
+}
+
+.pimg4{
+    background-image: url('UVCE_Gallery3.jpg');
+    min-height: 20vw;
+}
+
+.section{
+    text-align: center;
+    padding: 50px 80px;
+}
+
+#uvce{
+    top:30%;
+}
+
+
+.ptext{
+    text-align: center;
+    position: absolute;
+    color:black;
+    font-size: 27px;
+    width: 100%;
+    top:50%;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+    /*padding-bottom: 10px;*/
+}
+
+.ptext .border{
+    background-color: whitesmoke;
+    color: black;
+    /*padding-bottom: 10px;*/
+}
+
+#id{
+    font-weight: 200;
+    font-size: 20px;
+    font-style: bold;
+}
+
+#id2, #id4{
+    background-color: whitesmoke;
+}
+
+#id1, #id3{
+    background-color: azure;
+}
+
